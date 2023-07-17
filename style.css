@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(133, 142, 150, 1)0%
+    rgba(96, 105, 107, 1)100%
+  );
+
+}
+.img{
+  width:290px;
+}
+.innerBody{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 40%;
+  padding: 20px;
+background-color: #C1DBE3;
+  height: 100%;
+}
+@media only screen and (max-width: 800px) and (min-width: 550px)  {
+  .container {
+    width: 60%;
+   
+  }
+
+
+}
+@media only screen and (max-width: 549px) {
+  .container {
+    width: 90%;
+   
+  }
+
+
+}
+.inbox {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.inbox__people {
+  margin-bottom: 10px;
+
+}
+
+.inbox__people h4 {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+font-weight: bold;
+}
+
+.messages__history {
+  height: 450px;
+  overflow-y: auto;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.fallback {
+  color: #999;
+}
+
+.message_form {
+  display: flex;
+}
+
+.message_form__input {
+  flex-grow: 1;
+  padding: 5px;
+  outline: none;
+  background-color: #f1f1f19d;
+}
+
+.message_form__button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.outgoing__message {
+  float: right;
+  clear: both;
+}
+.sent__message {
+  background-color: #fff;
+  width: 150px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 1.125rem 1.125rem 0 1.125rem;
+  margin-top: 10px;
+}
+
+.incoming__message {
+  float: left;
+  clear: both;
+}
+.received__message {
+  background: #1300de;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  border-radius: 1.125rem 1.125rem 1.125rem 0;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.uzer {
+  background-color: #AFC1D6;
+  padding: 15px;
+  color: #000;
+  font-size: 15px;
+  font-weight: bolder;
+}
